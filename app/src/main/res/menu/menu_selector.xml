@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.audiolibros_zeuz.MainActivity" >
+
+
+    <item
+        android:id="@+id/menu_ultimo"
+        android:icon="@drawable/reciente"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="Recientemente leidos"
+        />
+    <item
+        android:id="@+id/menu_buscar"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:orderInCategory="90"
+        android:icon="@drawable/buscar"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="Buscar audiolibro"
+        />
+</menu>

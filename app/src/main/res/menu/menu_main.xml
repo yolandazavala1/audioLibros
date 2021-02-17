@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.audiolibros_zeuz.MainActivity" >
+    <item android:id="@+id/menu_preferencias"
+        android:icon="@drawable/preferencias"
+        android:title="Preferencias"
+        android:orderInCategory="95"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_acerca"
+        android:orderInCategory="110"
+        app:showAsAction="never"
+        android:title="Acerca de ...."
+
+        />
+
+</menu>

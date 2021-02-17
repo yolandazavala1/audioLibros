@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_todos"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="todos los generos"
+            >
+        </item>
+        <item
+            android:id="@+id/nav_epico"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="peoma Epico"
+            >
+        </item>
+        <item
+            android:id="@+id/nav_XIX"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Literatura siglo XIX"
+            >
+        </item>
+        <item
+            android:id="@+id/nav_suspense"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Suspense"
+            >
+        </item>
+    </group>
+    <item android:title="Accione adicionales">
+        <menu>
+            <item
+                android:id="@+id/nav_preferencias"
+                android:icon="@android:drawable/ic_menu_gallery"
+                android:title="Preferencias"
+                >
+            </item>
+            <item
+                android:id="@+id/navCompartir"
+                android:icon="@android:drawable/ic_menu_gallery"
+                android:title="Compartir"
+                >
+            </item>
+
+
+        </menu>
+
+
+
+
+    </item>
+
+</menu>
